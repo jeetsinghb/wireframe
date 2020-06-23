@@ -1,0 +1,278 @@
+/* Fonts */
+
+@font-face {
+    font-family: proxima-nova-light;
+    src: url('../fonts/Proxima-Nova-Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: proxima-nova-regular;
+    src: url('../fonts/ProximaNova-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: proxima-nova-sbold;
+    src: url('../fonts/Proxima-Nova-Sbold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: proxima-nova-bold;
+    src: url('../fonts/Proxima-Nova-Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: proxima-nova-black;
+    src: url('../fonts/Proxima-Nova-Black.otf');
+    font-weight: 800;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova-regular !important;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #9cafc3;
+}
+
+a {
+    color: #9cafc3 !important;
+}
+
+/* Main Code */
+
+.navbar-brand {
+    font-size: 14pt;
+    color: #9cafc3;
+    font-family: proxima-nova-black;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+a:hover.navbar-brand {
+    color: inherit;
+}
+
+li.nav-item {
+    margin-right: 35px;
+}
+
+a.nav-link {
+    font-size: 12pt;
+}
+
+a:hover.nav-link {
+    color: #808184 !important;
+}
+
+a.sign-up {
+    font-size: 12pt;
+}
+
+.btn-outline-dark {
+    border: 2px solid #9cafc3;
+}
+
+a.sign-up {
+    padding: 8px 20px;
+}
+
+.btn-outline-dark:hover {
+    color: #fff !important;
+}
+
+h1.heading {
+    font-size: 44pt;
+    color: #9cafc3;
+    font-family: proxima-nova-bold;
+    font-weight: 700;
+}
+
+.caption p {
+    font-size: 16pt;
+}
+
+.top-btn {
+    font-size: 16pt;
+    background: #9cafc3;
+    font-family: proxima-nova-sbold;
+    font-weight: 600;
+}
+
+.border-btm {
+    border-bottom: 2px solid #d1dae3;
+}
+
+.plat-head {
+    margin-bottom: 80px;
+}
+
+h3.plat-head {
+    font-size: 32pt;
+    font-family: proxima-nova-sbold;
+    font-weight: 600;
+}
+
+.platform-section {
+    padding: 70px 0px 130px 0px;
+}
+
+.platform-section h4 {
+    font-size: 18pt;
+    font-family: proxima-nova-sbold;
+    font-weight: 600;
+}
+
+.works-section {
+    background: #f3f5f8;
+    padding: 80px 0px 80px 0px;
+    position: relative;
+}
+
+.works-section h3 {
+    font-size: 32pt;
+    color: #9cafc3;
+    font-family: proxima-nova-sbold;
+    font-weight: 600;
+}
+
+.works-section p {
+    margin: 50px 0px;
+}
+
+.works-section a {
+    border: 2px solid #9cafc3;
+    font-size: 12pt;
+}
+
+.testimonials {
+    padding: 70px 0px 0px 0px;
+    height: 550px;
+}
+
+.testimonials h3 {
+    font-size: 32pt;
+    font-family: proxima-nova-sbold;
+    font-weight: 600;
+}
+
+.testimonials p {
+    font-size: 18pt;
+    position: relative;
+}
+
+.testimonials p:after {
+    position: absolute;
+    content: '';
+    border: 1px solid #e2e8ee;
+    width: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 5px;
+}
+
+.testimonials span {
+    font-family: proxima-nova-sbold;
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.testimonials span.position {
+    font-size: 14pt;
+    font-family: proxima-nova-regular;
+    font-weight: 400;
+}
+
+.carousel-inner {
+    height: 380px;
+}
+
+.carousel-indicators li:hover {
+    cursor: pointer;
+}
+
+.carousel-indicators {
+    list-style: none;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+    margin: 10px;           
+}
+
+.carousel-indicators li::before,
+.carousel-indicators li::after {
+    display: none;
+}
+
+.carousel-indicators img {
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;            
+}
+
+.form-section {
+    background: #f3f5f8;
+    padding: 100px 0px 70px 0px;
+    
+}
+
+.form-section h3 {
+    font-size: 32pt;
+    font-family: proxima-nova-sbold;
+    font-weight: 600;
+}
+
+.form-section p {
+    font-size: 18pt;
+}
+
+.form-col input {
+    border: 2px solid #dce2ea;
+    padding: 15px 20px;
+    height: 40px;
+}
+
+.form-col input::placeholder {
+    font-size: 13pt;
+    color: #b5c3d2;
+}
+
+.form-col button {
+    font-size: 12pt;
+    border: 2px solid #9cafc3;
+    letter-spacing: 1px;
+}
+
+.btn-outline-dark {
+    color: #9cafc3;
+}
+
+.companies {
+    padding: 50px 0px;
+    background: #edeff3;
+}
+
+.footer-section {
+    padding: 70px 0px 200px 0px;
+}
+
+.footer-section p {
+    font-size: 16pt;
+}
